@@ -1,0 +1,36 @@
+.dashboard-layout{
+    padding: 10px;
+}
+
+.filter-bar{
+    padding: 20px;
+     display: flex;
+     justify-content: space-between;
+}
+
+.filters{
+    display: flex;
+    gap: 10px;
+}
+
+.card-layout{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 14px;
+    flex-wrap: wrap;
+}
+
+.ant-card-extra{
+  padding: 3px;
+  border-radius: 10px;
+  font-size: 12px !important;
+      border: 1px solid;
+}
+
+.inprogress .ant-card-extra{
+    background-color: gainsboro;
+}
+.complete .ant-card-extra{
+    background-color: rgb(13, 198, 13);
+}
